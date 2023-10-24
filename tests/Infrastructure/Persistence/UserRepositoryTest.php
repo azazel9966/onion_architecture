@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/../../../vendor/autoload.php';
+
 use Domain\User\User;
 use Infrastructure\Persistence\UserRepository;
 use PHPUnit\Framework\TestCase;
